@@ -1,0 +1,613 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* ............main body zone ..... */
+.web-header {
+   max-width: 100%;
+   position: sticky;
+   z-index: 1;
+    top: 0;
+   background-color: #fff;
+   /* background-color: rebeccapurple; */
+
+
+   padding: 2px;
+}
+
+.main-body {
+   scroll-behavior: smooth;
+   width: 100%;
+   background-color: #f2f5f7;
+}
+
+.full-body-dh {
+   /* background-color: #FAFBFC; */
+   background-color: #f2f5f7;
+   max-width: 100%;
+   height: fit-content;
+   /* margin-top: 35px; */
+}
+
+.wb-name img {
+   width: 250px;
+   margin-left: 150px;
+   margin-top: 25px;
+}
+
+/* .......this is wb-head-1 zone... */
+
+
+.wb-head-1 {
+   /* background-color: rgb(132, 155, 175); */
+   width: 100%;
+   height: 55px;
+}
+
+.wb-name a {
+   text-decoration: none;
+   margin-left: 150px;
+   margin-top: 15px;
+   color: rgb(20, 19, 19);
+   font-size: 25px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+/* .....this is menubar zone..... */
+.menu-bar {
+   width: 90%;
+   margin-left: 133px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   overflow: hidden;
+
+   /* background-color: rgb(132, 155, 175); */
+
+}
+
+.menu-bar a {
+
+   text-decoration: none;
+   /* margin-left: 25px; */
+   margin-left: 25px;
+
+   color: rgb(26, 21, 21);
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+
+}
+
+.menu-bar a:hover {
+   color: rgb(105, 155, 105);
+   transition-delay: 0.2s;
+}
+
+/* .....this is menubar zone..... */
+
+/* .....this is news body zone ..... */
+.news-body-lr {
+   display: flex;
+   justify-content: space-between;
+   position: inherit;
+}
+
+.news-body-l {
+   /* background-color: burlywood; */
+   width: 70%;
+   margin-left: 25px;
+   position: relative;
+   /* display: flex; */
+}
+
+/* .news-body-r {
+   width: 25%;
+   position: absolute;
+   left: 950px;
+    
+   
+  
+} */
+
+.news-body-r {
+   width: 30%;
+   position: relative;
+   /* left: 950px; */
+   /* background-color: #f2f5f7; */
+}
+
+
+
+.news-div-12 {
+   display: flex;
+}
+
+.news-l-12 {
+   margin-top: 12px;
+   margin-left: 30px;
+   background-color: #fff;
+   width: 404px;
+   height: 530px;
+}
+
+.news-sub-h h4 {
+   margin-top: 10px;
+   margin-left: 15px;
+   font-size: 15px;
+   background-color: #2872fa;
+   width: 75px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.news-sub-h h1 {
+   margin: 7px 15px;
+   width: 90%;
+   font-size: 20px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.news-l-12 img {
+   width: 403px;
+   height: 300px;
+}
+
+.news-p-det {
+   width: 90%;
+   font-size: 15px;
+   margin-top: 10px;
+   margin-left: 15px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+/* .....this is news body zone ..... */
+.news-div-345 {
+   display: flex;
+   margin-left: 18px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+.news-l-345 {
+   margin-top: 10px;
+   margin-left: 30px;
+   background-color: #fff;
+   width: 260px;
+   height: 480px;
+}
+
+.news-sub-h2 h4 {
+   margin-top: 10px;
+   margin-left: 15px;
+   font-size: 15px;
+   background-color: #2872fa;
+   width: 75px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.news-sub-h2 h1 {
+   margin: 7px 15px;
+   width: 92%;
+   font-size: 20px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.news-l-345 img {
+   width: 260px;
+   height: 200px;
+}
+
+.news-p-det-2 {
+   width: 90%;
+   font-size: 12px;
+   margin-top: 10px;
+   margin-left: 15px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+/* ......left side closed...... */
+
+
+/* .....right-side-start.... */
+.popular-post-all {
+   display: flex;
+   margin-top: 10px;
+}
+
+.popular-post-all img {
+   width: 100px;
+   height: 100px;
+}
+
+.popular-h-det {
+   margin-top: 25px;
+   margin-left: 10px;
+   width: 90%;
+   font-size: 8px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.popular-h-det a {
+   text-decoration: none;
+   color: black;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+/* .....content-catagorys-zone.... */
+
+.news-cata-list {
+   margin-top: 15px;
+
+}
+
+.news-cata-list a {
+   text-decoration: none;
+   color: black;
+   line-height: 25px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.news-cata-list a:hover {
+   color: #2872fa;
+}
+
+/* .................admin-notice........ */
+.admin-notice img {
+   width: 330px;
+   height: 400px;
+   margin-top: 50px;
+   border-radius: 10px;
+   border: 1px solid #2872fa;
+}
+
+/* ....footer-part-here..... */
+
+.footer-part-all {
+   width: 95%;
+   display: flex;
+   justify-content: space-around;
+   margin-left: 10px;
+}
+
+.footer-part-1 {
+   width: 28%;
+   height: fit-content;
+   /* background-color: #2872fa; */
+
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.footer-part-2 {
+
+   width: 28%;
+   /* background-color: #2872fa; */
+
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.footer-part-3 {
+   width: 28%;
+   /* background-color: #2872fa; */
+
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.footer-part-all {
+   margin-top: 160px;
+}
+
+/* .............. */
+
+.footer-part-1 {
+   margin-left: 55px;
+   font-size: 15px;
+}
+
+.information-all {
+   display: flex;
+   margin-top: 17px;
+   line-height: 20px;
+}
+
+.information-det {
+   font-size: 12px;
+   margin-left: 15px;
+
+}
+
+/* ........footer-part-2....... */
+.footer-part-2-all {
+   margin-top: 25px;
+}
+
+.footer-abt-us-type a {
+   text-decoration: none;
+   color: black;
+   margin-left: 15px;
+
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+}
+
+.footer-abt-us-type {
+   margin-top: 25px;
+   margin-left: 10px;
+   line-height: 25px;
+}
+
+.footer-useful-inf {
+   margin-top: 35px;
+}
+
+.footer-popular-post h4 {
+   font-size: 18px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.footer-popular-post {
+   margin-top: 25px;
+}
+
+.footer-pop-p-item-all {
+   margin-top: 25px;
+   margin-left: 25px
+}
+
+/* ......creadit-zone-here...... */
+
+.web-creadit-part {
+   margin-top: 80px;
+   text-align: center;
+   /* background-color: #fff; */
+   padding: 10px;
+}
+
+.web-creadit-part h4 {
+   font-size: 15px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.web-creadit-part a {
+   text-decoration: none;
+   color: #2872fa;
+}
+
+/* .......media screen zone..... */
+/* Extra small devices (phones, 600px and down) */
+
+
+@media only screen and (max-width: 600px) {
+   .main-body {
+      width: 995px;
+      background-color: #f2f5f7;
+   }
+
+   .web-header {
+      position: sticky;
+      animation-delay: 0.5s;
+      width: 100%;
+      color: #fff;
+   }
+
+   .full-body-dh {
+      width: 550px;
+   }
+
+
+   .menu-bar {
+
+      width: 850px;
+   }
+
+   .full-body-dh {
+      width: 100%;
+      margin-left: 25px;
+   }
+
+   .news-body-l {
+      width: 90%;
+      margin-left: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+   }
+
+   .news-l-12 {
+      width: 450px;
+   }
+
+   .news-l-12 img {
+      width: 450px;
+   }
+
+
+   .web-creadit-part {
+      width: 100%;
+      background-color: #f2f5f7;
+   }
+}
+
+@media only screen and (max-width: 992px) {
+   .main-body {
+      width: 965px;
+      background-color: #f2f5f7;
+   }
+
+   .web-header {
+      position: sticky;
+     max-width: 100%;
+      color: #fff;
+   }
+
+   .full-body-dh {
+      width: 1000px;
+      margin-left: 25px;
+   }
+
+
+   .menu-bar {
+
+      width: 100%;
+   }
+
+
+
+   .news-body-l {
+      width: 40%;
+      margin-left: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+   }
+
+   .news-l-12 img {
+      width: 300px;
+      height: 250px;
+      margin-top: 15px;
+   }
+
+
+
+   .news-l-12 {
+      width: 350px;
+   }
+
+   .news-l-345 {
+      height: 440px;
+   }
+
+   .news-sub-h2 h1 {
+      width: 90%;
+      font-size: 15px;
+   }
+
+   .news-l-345 img {
+      width: 191px;
+      height: 150px;
+      margin-top: 15px;
+   }
+
+   .news-body-r {
+      width: 40%;
+      position: relative;
+      margin-left: 340px;
+   }
+
+
+
+
+   .popular-post-all img {
+      width: 60px;
+      height: 50px;
+      margin-top: 25px;
+   }
+
+   .popular-post-all h1 {
+      width: 50%;
+      font-size: 10px;
+   }
+
+   .admin-notice img {
+      width: 220px;
+      height: 300px;
+   }
+
+   .footer-zone {
+      width: 965px;
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+   .main-body {
+      width: 1200px;
+      background-color: #f2f5f7;
+   }
+
+   .web-header {
+      position: fixed;
+      animation-delay: 0.5s;
+      width: 1200px;
+      color: #fff;
+   }
+
+   .full-body-dh {
+      width: 1200px;
+      margin-left: 25px;
+      margin-top: 150px;
+   }
+
+
+   .menu-bar {
+
+      width: 600px;
+
+   }
+
+
+
+   .news-body-l {
+      width: 40%;
+      margin-left: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+   }
+
+   .news-l-12 img {
+      width: 360px;
+      height: 250px;
+      margin-top: 15px;
+   }
+
+
+
+   .news-l-12 {
+      width: 360px;
+   }
+
+
+   .news-l-345 {
+      width: 450px;
+      height: 440px;
+   }
+
+   .news-sub-h2 h1 {
+      width: 90%;
+      font-size: 15px;
+   }
+
+   .news-l-345 img {
+      width: 230px;
+      height: 150px;
+      margin-top: 15px;
+   }
+
+   .news-body-r {
+      width: 40%;
+      position: relative;
+      margin-left: 380px;
+   }
+
+
+
+
+   .popular-post-all img {
+      width: 60px;
+      height: 50px;
+      margin-top: 25px;
+   }
+
+   .popular-post-all h1 {
+      width: 50%;
+      font-size: 10px;
+   }
+
+   .admin-notice img {
+      width: 280px;
+      height: 300px;
+   }
+
+   .footer-zone {
+      width: 1200px;
+   }
+}
